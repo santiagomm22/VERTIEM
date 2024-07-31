@@ -1,9 +1,14 @@
 function Card() {
   return (
-    <div className="row row-cols-1 row-cols-md-3 g-4">
+    <div className="row row-cols-1 row-cols-md-4 g-4">
       <div className="col">
-        <div className="card">
-          <img src="./images/cam.jpg" className="card-img-top" alt="..." />
+        <div className="card border-0">
+          <img
+            src="./images/imgprueba/img1.jpg"
+            className="card-img-top "
+            style={{ borderRadius: "100px" }}
+            alt="..."
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
@@ -15,8 +20,13 @@ function Card() {
         </div>
       </div>
       <div className="col">
-        <div className="card">
-          <img src="./images/vactor.jpg" className="card-img-top" alt="..." />
+        <div className="card border-0">
+          <img
+            src="./images/imgprueba/img2.jpg"
+            className="card-img-top"
+            style={{ borderRadius: "100px" }}
+            alt="..."
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
@@ -28,8 +38,13 @@ function Card() {
         </div>
       </div>
       <div className="col">
-        <div className="card">
-          <img src="./images/img1.jpg" className="card-img-top" alt="..." />
+        <div className="card border-0">
+          <img
+            src="./images/imgprueba/cam.jpg"
+            className="card-img-top"
+            style={{ borderRadius: "100px" }}
+            alt="..."
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
@@ -40,8 +55,13 @@ function Card() {
         </div>
       </div>
       <div className="col">
-        <div className="card">
-          <img src="./images/img2.jpg" className="card-img-top" alt="..." />
+        <div className="card border-0">
+          <img
+            src="./images/imgprueba/img1.jpg"
+            className="card-img-top"
+            style={{ borderRadius: "100px" }}
+            alt="..."
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">

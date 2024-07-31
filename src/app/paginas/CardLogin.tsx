@@ -24,7 +24,16 @@ function Card() {
             style={{ width: "50%", margin: "0 auto" }}
           >
             <span className="input-group-text" id="basic-addon1">
-              <i className="bi bi-person"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={16}
+                height={16}
+                fill="currentColor"
+                className="bi bi-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+              </svg>
             </span>
             <input
               type="text"
@@ -40,7 +49,16 @@ function Card() {
             style={{ width: "50%", margin: "0 auto" }}
           >
             <span className="input-group-text" id="basic-addon2">
-              <i className="bi bi-lock"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={16}
+                height={16}
+                fill="currentColor"
+                className="bi bi-lock-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2" />
+              </svg>
             </span>
             <input
               type="password"
