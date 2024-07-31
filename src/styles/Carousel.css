@@ -1,0 +1,33 @@
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 20px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    padding: 10px; /* Ajusta el espaciado */
+  }
+
+  .carousel-caption h5 {
+    font-size: 18px; /* Ajusta el tamaño del título */
+  }
+
+  .carousel-caption p {
+    font-size: 14px; /* Ajusta el tamaño del párrafo */
+  }
+  .carousel-item {
+    position: relative; /* Asegura que el contenedor de texto se posicione correctamente */
+  }
+
+  .carousel-caption {
+    position: absolute; /* Posiciona el cuadro de texto sobre la imagen */
+    bottom: 20px; /* Ajusta la posición desde el fondo */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+  }
+}
