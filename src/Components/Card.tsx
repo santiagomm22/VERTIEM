@@ -72,32 +72,6 @@ function Card() {
           </div>
         </div>
       </div>
-      <div className="col">
-        <div className="card">
-          <img src="./images/img2.jpg" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <img src="./images/plantatt.jpg" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

@@ -4,9 +4,8 @@ import "../styles/NavBar.css";
 function NavBar() {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-dark fixed-top"
-      data-bs-theme="dark"
-      style={{ borderBottom: "none" }}
+      className="navbar navbar-expand-lg  fixed-top"
+      style={{ borderBottom: "none", backgroundColor: "#ffffff " }}
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
@@ -51,9 +50,9 @@ function NavBar() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link
-                href="/paginas"
+                href="/paginas/P1"
                 type="button"
-                className="btn btn-primary btn-lg"
+                className="btn  btn-danger"
               >
                 {" "}
                 Iniciar Sesión
@@ -64,6 +63,7 @@ function NavBar() {
                   fill="currentColor"
                   className="bi bi-person-circle"
                   viewBox="0 0 16 16"
+                  style={{ marginLeft: "8px" }} // Espacio entre el texto y el icono
                 >
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                   <path
