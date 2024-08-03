@@ -9,7 +9,6 @@ function App() {
       <NavBar />
       <br />
       <br />
-      <p />
       <Carousel />
       <br />
       <Card />
