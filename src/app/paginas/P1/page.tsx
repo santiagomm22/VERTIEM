@@ -1,10 +1,10 @@
 import CardLogin from "../../../Components/CardLogin";
-import TwoNav from "../CloseButton";
+import CloseButton from "../../../Components/CloseButton";
 
 export default function App() {
   return (
     <div>
-      <TwoNav />
+      <CloseButton />
       <br />
       <CardLogin />
     </div>

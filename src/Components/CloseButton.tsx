@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function Navbar() {
+function CloseButton() {
   return (
     <div>
       <Link href="/">
@@ -10,4 +10,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default CloseButton;
