@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div>
       <CloseButton />
-      <br />
       <CardLogin />
     </div>
   );

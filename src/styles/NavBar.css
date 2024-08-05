@@ -10,3 +10,6 @@
   padding-left: 70px;
   padding-right: 35px;
 }
+body {
+  overflow-x: hidden;
+}

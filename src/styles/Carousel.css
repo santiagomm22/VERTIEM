@@ -31,3 +31,6 @@
     transform: translateX(-50%); /* Centra horizontalmente el texto */
   }
 }
+body {
+  overflow-x: hidden;
+}

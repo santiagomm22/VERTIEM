@@ -3,7 +3,7 @@ function Card() {
     <>
       <div className="row">
         <div className="col-md-5 col-sm-12 col-12 text-center">
-          <img src="/images/VertiLogo.jpg" alt="..." style={{ width: "70%" }} />
+          <img src="/images/VertiLogo.jpg" alt="..." style={{ width: "80%" }} />
           <h1>Inicio de Sesión</h1>
           <br />
           <br />
