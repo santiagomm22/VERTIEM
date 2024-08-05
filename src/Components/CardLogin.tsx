@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Card() {
   return (
     <>
@@ -67,9 +69,13 @@ function Card() {
               />
             </div>
 
-            <button type="button" className="btn btn-outline-primary ">
+            <Link
+              href="/paginas/P2"
+              type="button"
+              className="btn btn-outline-primary "
+            >
               Ingresar
-            </button>
+            </Link>
           </form>
         </div>
       </div>
